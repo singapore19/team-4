@@ -1,0 +1,102 @@
+{
+    "homeless_people": [
+        {
+            "id":  0,
+            "location": {
+                "latitude": "1.304095",
+                "longitude": "103.830361"
+            },
+            "time": "18:30:25 04-10-2019",
+            "description": "This old women is wearing a black shirt with blue pants",
+            "age": "from 40 to 50",
+            "race": null,
+            "gender": "female",
+            "dangerous": "yes",
+            "smell": "no"
+        },
+        {
+            "id":  1,
+            "location": {
+                "latitude": "1.281710",
+                "longitude": "103.820012"
+            },
+            "time": "06:35:20 04-10-2019",
+            "description": "This old man is sleeping alone in the corner",
+            "age": "from 50 to 60",
+            "race": null,
+            "gender": "male",
+            "dangerous": "yes",
+            "smell": "yes"
+        },
+        {
+            "id":  2,
+            "location": {
+                "latitude": "1.364772",
+                "longitude": "103.869429"
+            },
+            "time": "07:15:03 04-10-2019",
+            "description": "There is an old women lying on an old blanket in the corner",
+            "age": "from 50 to 60",
+            "race": null,
+            "gender": "female",
+            "dangerous": "yes",
+            "smell": "no"
+        },
+        {
+            "id":  3,
+            "location": {
+                "latitude": "1.314661",
+                "longitude": "103.816580"
+            },
+            "time": "19:30:25 05-10-2019",
+            "description": "This old women together with her children are lying in the corner",
+            "age": "from 40 to 50",
+            "race": null,
+            "gender": "female",
+            "dangerous": "yes",
+            "smell": "no"
+        },
+        {
+            "id":  4,
+            "location": {
+                "latitude": "1.334568",
+                "longitude": "103.752064"
+            },
+            "time": "20:30:25 05-10-2019",
+            "description": "There is a man sleeping on the floor",
+            "age": "from 50 to 60",
+            "race": null,
+            "gender": "male",
+            "dangerous": "no",
+            "smell": "no"
+        },
+        {
+            "id":  5,
+            "location": {
+                "latitude": "1.327017",
+                "longitude": "103.768536"
+            },
+            "time": "22:45:25 05-10-2019",
+            "description": "There is an old women with a lot of luggage lying here",
+            "age": "from 50 to 60",
+            "race": null,
+            "gender": "female",
+            "dangerous": "no",
+            "smell": "no"
+        },
+        {
+            "id":  6,
+            "location": {
+                "latitude": "1.332509",
+                "longitude": "103.929827"
+            },
+            "time": "23:01:25 05-10-2019",
+            "description": "This old man is wearing a blue shirt with black pants",
+            "age": "from 40 to 50",
+            "race": null,
+            "gender": "male",
+            "dangerous": "yes",
+            "smell": "no"
+        }
+    ]
+}
