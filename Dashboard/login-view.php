@@ -30,6 +30,7 @@
   <div class="container">
 
     <!-- Outer Row -->
+    <form action ="index.php" method ="post">
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
@@ -46,7 +47,10 @@
                   </div>
                   <form class="user">
                     <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                        Email: <input type="text" email="email"><br>
+
+
+                        <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                     </div>
                     <div class="form-group">
                       <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
@@ -57,7 +61,12 @@
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+
+                    <a 
+                      <?php if (email == 'admin'):
+                              $href = "index.html";
+                            else:
+                              $href= "buttons.html"; ?> class="btn btn-primary btn-user btn-block">
                       Login
                     </a>
                     <hr>
@@ -86,6 +95,7 @@
     </div>
 
   </div>
+  </form>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
