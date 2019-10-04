@@ -66,7 +66,9 @@
                       <?php if (email == 'admin'):
                               $href = "index.html";
                             else:
-                              $href= "buttons.html"; ?> class="btn btn-primary btn-user btn-block">
+                              $href= "buttons.html"; 
+                            
+                            echo $href?> class="btn btn-primary btn-user btn-block">
                       Login
                     </a>
                     <hr>
