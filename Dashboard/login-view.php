@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -19,6 +20,10 @@
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
+
+<?php
+
+?>
 
 <body class="bg-gradient-primary">
 
